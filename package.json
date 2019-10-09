@@ -1,0 +1,25 @@
+{
+  "authors": [
+    "Sean D. Murray"
+  ],
+  "dependencies": {},
+  "description": "A very simple light weight logging util for AWS lambda",
+  "devDependencies": {},
+  "homepage": "https://github.com/seandmurray/simple_lambda_log#readme",
+  "keywords": [
+    "simple",
+    "lambda",
+    "AWS",
+    "log",
+    "logging"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "simple_lambda_log",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seandmurray/simple_lambda_log.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
+}
