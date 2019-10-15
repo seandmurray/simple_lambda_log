@@ -48,11 +48,11 @@ module.exports = class {
 	}
 
 	outWarn(...msgs) {
-		console.info(util.format(this._warn, ...msgs));
+		console.warn(util.format(this._warn, ...msgs));
 	}
 
 	outError(...msgs) {
-		console.info(util.format(this._error, ...msgs));
+		console.error(util.format(this._error, ...msgs));
 	}
 }
 
