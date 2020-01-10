@@ -5,6 +5,12 @@ SEE MIT LICENSE FILE
 
 NO dependency, very simple util to make logging to the lambda console debug/info/warn/error logs easier.
 
+To turn off debug/info/warn/error set the following enviromental variables to any value:
+NODEBUG='anyvaluehere'
+NOINFO='anyvaluehere'
+NOWARN='anyvaluehere'
+NOERROR='anyvaluehere'
+
 ## Usage
 
 ```javascript

@@ -40,19 +40,19 @@ module.exports = class {
 	}
 
 	outDebug(...msgs) {
-		console.debug(util.format(this._debug, ...msgs));
+		if (!process.env.NODEBUG) console.debug(util.format(this._debug, ...msgs));
 	}
 
 	outInfo(...msgs) {
-		console.info(util.format(this._info, ...msgs));
+		if (!process.env.NOINFO) console.info(util.format(this._info, ...msgs));
 	}
 
 	outWarn(...msgs) {
-		console.warn(util.format(this._warn, ...msgs));
+		if (!process.env.NOWARN) console.warn(util.format(this._warn, ...msgs));
 	}
 
 	outError(...msgs) {
-		console.error(util.format(this._error, ...msgs));
+		if (!process.env.NOERROR) console.error(util.format(this._error, ...msgs));
 	}
 }
 
